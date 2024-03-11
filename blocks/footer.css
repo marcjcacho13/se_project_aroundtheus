@@ -1,6 +1,5 @@
 .footer {
     font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400;
     max-width: 318px;
     margin: 0;
     padding: 0 0 60px 0;
@@ -25,6 +24,5 @@
     .footer__copyright {
         line-height: 16.94px;
         font-size: 14px;
-        font-weight: 400;
     }
 }
