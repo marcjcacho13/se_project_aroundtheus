@@ -5,8 +5,9 @@
 }
 
 .page__content {
-  display: flex;
   min-height: 100vh;
+  max-width: 880px;
+  margin: 0 auto;
   flex-direction: column;
 }
 
