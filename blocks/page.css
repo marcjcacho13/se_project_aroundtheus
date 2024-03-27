@@ -2,31 +2,28 @@
   background-color: black;
   color: white;
   font-family: "Inter", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 .page__content {
-  min-height: 100vh;
-  max-width: 880px;
-  margin: 0 auto;
+  display: flex;
   flex-direction: column;
+  padding: 0 20px;
+  min-height: 100vh;
 }
 
 .page__section {
+  max-width: 880px;
+  width: 100%;
   position: relative;
   margin: 0 auto;
-  max-width: 880px;
 }
 
 @media screen and (max-width: 480px) {
-  .page__content {
-    max-width: 480px;
+  .page__section {
+    gap: inherit;
   }
-}
 
-@media screen and (max-width: 320px) {
   .page__content {
-    max-width: 320px;
+    padding: 0;
   }
 }
