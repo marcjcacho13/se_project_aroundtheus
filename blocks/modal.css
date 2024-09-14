@@ -17,7 +17,7 @@
 }
 
 .modal_opened {
-    display: ;
+    display: none;
 }
 
 .modal__container {
