@@ -7,29 +7,76 @@
     background-color: rgba(0, 0, 0, .5);
     align-items: center;
     justify-content: center;
-    z-index: 999;
-    display: none;
+    z-index: 1000;
+    display: flex;
+    visibility: hidden;
     padding: 0 19px
 }
 
 .modal__heading {
     color:black;
+    margin: 0;
+    padding: 0 0 55px 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .modal_opened {
-    display: flex;
+    visibility: visible;
+    opacity: 1;
 }
 
 .modal__container {
     position: relative;
-    padding: 30px;
+    padding: 36px;
     background-color: #fff;
     margin: auto;
+    width: 430px;
+    height: 330px;
     border-radius: 10px;
+}
+
+.modal__input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100%;
+    padding-bottom: 12.5px;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.modal__save{
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 125px 15px 125px;
+    line-height: 22px;
+    margin: 0;
+    border: none;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .modal__close {
     background-image: url(../images/close.svg);
+    position: absolute;
     border: none;
     background-color: transparent;
     position: absolute;
@@ -39,4 +86,7 @@
     height: 40px;
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
