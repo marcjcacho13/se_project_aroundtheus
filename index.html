@@ -17,7 +17,7 @@
           class="header__image"
         />
       </header>
-      <main class="page__content">
+      <main>
         <section class="profile page__section">
           <img
             src="./images/jacques-cousteau.jpg"
@@ -44,7 +44,7 @@
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
         <button class="modal__close" type="button"></button>
-        <p class="modal__heading">Edit Profile</p>
+        <h2 class="modal__heading">Edit Profile</h2>
         <form class="modal__form">
           <input 
           type="text" 
@@ -52,6 +52,7 @@
           class="modal__input" 
           id="profile-title-input" 
           placeholder="Name"
+          required
           />
           <input 
           type="text" 
@@ -59,6 +60,7 @@
           class="modal__input" 
           id="profile-description-input" 
           placeholder="Description"
+          required
           />
           <button class="modal__save" type="submit">Save</button>
         </form>
