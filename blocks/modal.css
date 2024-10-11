@@ -114,8 +114,9 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        padding: 22px 22px 25px 22px;
+        padding: 15px 22px;
         width: 100%;
+        margin: 0 auto;
     }
 
     .modal__container {
@@ -131,6 +132,7 @@
     .modal__close {
         left: 242px;
         width: 26px;
+        position: absolute;
     }
 
 }
