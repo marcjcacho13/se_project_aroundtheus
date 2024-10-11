@@ -39,10 +39,8 @@
     background-color: #fff;
     border-radius: 10px;
     box-sizing: border-box;
-    height: 330px;
     width: 430px;
     padding: 48px 36px 36px 36px;
-    box-sizing: border-box;
 }
 
 .modal__input {
@@ -76,7 +74,7 @@
 }
 
 .modal__save:hover{
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .modal__close {
@@ -103,34 +101,30 @@
 @media screen and (max-width: 480px) {
     .modal__heading {
         padding-bottom: 75px;
-        font-family: "Inter", Arial, sans-serif;
-        font-weight: 900;
         font-size: 18px;
         line-height: 22px;
     }
     
     .modal__save {
-        font-family: "Inter", Arial, sans-serif;
-        font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         padding: 15px 22px;
         width: 100%;
-        margin: 0 auto;
     }
 
     .modal__container {
         border: 1px;
+        padding: 25px 22px;
         width: 282px;
-        height: 322px;
     }
 
     .modal__input {
         width: 100%;
+        margin-bottom: 30px;
     }
 
     .modal__close {
-        left: 242px;
+        right: 0;
         width: 26px;
         position: absolute;
     }
